@@ -9,7 +9,7 @@ package com.judith.tipoInmueble;
  */
 
 // Definición de la enumeración para la localización del local
-public enum TipoLocal extends Local {
+public enum TipoLocal {
 
     // Declaración de las constantes de enumeración, incluyendo un valor descriptivo
     // El local se encuentra dentro de un edificio

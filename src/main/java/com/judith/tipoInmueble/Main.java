@@ -263,6 +263,8 @@ public class Main {
                         System.out.print("Ingrese el nombre del centro comercial: ");
                         // Lee el nombre
                         String centroComercial = scanner.nextLine();
+                        // Consume el salto de línea pendiente
+                        scanner.nextLine();
 
                         // Crea una nueva instancia de LocalComercial
                         inmueble = new LocalComercial(id, area, direccion, localizacion, centroComercial);
